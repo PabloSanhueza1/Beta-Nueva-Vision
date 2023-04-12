@@ -12,19 +12,27 @@
 <body>
     <main>
         <h2>Selecciona una cantidad</h2>
-        <form class="formulario">
-            <button id="boton-1"><a href="https://mpago.la/1ots4y8">$1.000 - $10.000</button>
-            <button id="boton-2">$11.000 - $20.000</button>
-            <button id="boton-3">$21.000 - $30.000</button>
-            <button id="boton-4">$31.000 - $40.000</button>
-            <button id="boton-5">$41.000 - $50.000</button>
-            <button id="boton-6">$51.000 - $60.000</button>
-            <button id="boton-7">$61.000 - $70.000</button>
-            <button id="boton-8">$71.000 - $80.000</button>
-            <button id="boton-9">$81.000 - $90.000</button>
-            <button id="boton-10">$91.000 - $100.000</button>
 
+        <div class="slidecontainer">
+            <input type="range" min="1000" max="100000" value="50000" step="1000" class="slider" id="myRange">
+            <output>50000</output>
+        </div>
+
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.querySelector("output");
+            output.innerHTML = slider.value;
+
+            slider.addEventListener("input", function () {
+                output.innerHTML = this.value;
+            });
+        </script>
+
+        <form class="formulario">
+            <button id="ofrendar"><a href="https://www.youtube.com/watch?v=mCdA4bJAGGk">
+                    <span>OFRENDAR</span>
         </form>
+
     </main>
 
 
