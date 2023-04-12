@@ -13,6 +13,7 @@ body {
     background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Beta-Nueva-Vision/main/Background.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 h2 {

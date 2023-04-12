@@ -102,6 +102,219 @@ function updateButton() {
     case 29:
       window.location.href = 'https://mpago.la/26CNAhV';
       break;
+    case 30:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 31:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 32:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 33:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 34:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 35:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 36:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 37:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 38:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 39:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 40:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 41:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 42:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 43:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 44:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 45:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 46:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 47:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 48:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 49:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 50:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 51:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 52:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 53:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 54:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 55:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 56:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 57:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 58:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 59:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 60:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 61:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 62:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 63:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 64:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 65:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 66:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 67:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 68:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 69:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 70:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 71:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 72:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 73:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 74:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 75:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 76:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 77:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 78:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 79:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 80:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 81:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 82:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 83:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 84:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 85:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 86:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 87:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 88:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 89:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 90:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 91:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 92:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 93:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 94:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 95:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 96:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 97:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 98:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 99:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
+    case 100:
+      window.location.href = 'https://mpago.la/26CNAhV';
+      break;
   }
 }
 
