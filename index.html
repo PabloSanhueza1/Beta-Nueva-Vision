@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BETA</title>
     <link href="index.css" rel="stylesheet" />
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 
         <div class="slidecontainer">
             <input type="range" min="1000" max="100000" value="50000" step="1000" class="slider" id="myRange">
-            <output>50000</output>
+            <output id="sliderValue"></output>
         </div>
 
         <script>
@@ -28,13 +29,11 @@
             });
         </script>
 
-        <form class="formulario">
-            <button id="ofrendar"><a href="https://www.youtube.com/watch?v=mCdA4bJAGGk">
-                    <span>OFRENDAR</span>
-        </form>
-
+        <button class="myButton" id="ofrendar"
+            onclick="window.location.href='https://www.youtube.com/watch?v=mCdA4bJAGGk';">
+            OFRENDAR
+        </button>
     </main>
-
 
 </body>
 

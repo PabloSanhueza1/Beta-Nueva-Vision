@@ -1,6 +1,7 @@
-var slider = document.getElementById("myRange");
-var output = document.querySelector("output");
-
-slider.addEventListener("input", function() {
-  output.value = slider.value;
-});
+function updateSliderValue() {
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("sliderValue");
+  var value = slider.value;
+  var valueElement = output.querySelector("span");
+  valueElement.innerHTML = "$" + value;
+}
