@@ -19,6 +19,7 @@
             <output id="sliderValue"></output>
         </div>
 
+        <button class="myButton" id="ofrendar">OFRENDAR</button>
         <script>
             var slider = document.getElementById("myRange");
             var output = document.querySelector("output");
@@ -26,13 +27,16 @@
 
             slider.addEventListener("input", function () {
                 output.innerHTML = this.value;
+                updateSliderValue();
+            });
+
+            var button = document.getElementById("ofrendar");
+            button.addEventListener("click", function () {
+                updateButton();
             });
         </script>
 
-        <button class="myButton" id="ofrendar"
-            onclick="window.location.href='https://www.youtube.com/watch?v=mCdA4bJAGGk';">
-            OFRENDAR
-        </button>
+
     </main>
 
 </body>
