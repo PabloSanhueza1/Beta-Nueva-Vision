@@ -14,7 +14,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: auto;
-    /* Habilitar scroll vertical */
 }
 
 h2 {
@@ -30,6 +29,7 @@ main {
 
 input[type=range] {
     -webkit-appearance: none;
+    appearance: none;
     width: 100%;
     height: 20px;
     background-color: #ddd;
@@ -46,11 +46,11 @@ input[type=range]::-webkit-slider-thumb {
     background-color: #3fbaac;
     cursor: pointer;
     border-radius: 50%;
-    box-shadow: 0 0 5px #4CAF50;
+    box-shadow: 0 0 5px #167a6e;
 }
 
 input[type=range]:focus::-webkit-slider-thumb {
-    box-shadow: 0 0 5px #4CAF50;
+    box-shadow: 0 0 5px #23bfae;
 }
 
 output {
