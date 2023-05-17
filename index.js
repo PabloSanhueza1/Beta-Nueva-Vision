@@ -16,7 +16,7 @@ function updateButton() {
 
   switch (num) {
     case 1:
-      window.location.href = 'https://mpago.la/2vJV4qj';
+      window.location.href = 'https://mpago.la/1YU9qDy';
       break;
     case 2:
       window.location.href = 'https://mpago.la/2Aw6F7Y';
