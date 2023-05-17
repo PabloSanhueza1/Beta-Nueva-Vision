@@ -21,7 +21,6 @@ p {
     text-align: center;
 }
 
-
 input[type=range] {
     -webkit-appearance: none;
     appearance: none;
@@ -151,20 +150,6 @@ button.ofrendaButton {
 }
 
 @media (max-width: 800px) {
-    .logo {
-        top: 95vw;
-        max-height: 20vh;
-        /* Ajusta el tamaño del logo en dispositivos móviles */
-        padding: 10px;
-        /* Ajusta el espaciado del logo en dispositivos móviles */
-    }
-
-    .container {
-        top: 50%;
-        padding-bottom: 150px;
-        /* Ajusta el padding de la caja de ofrenda en dispositivos móviles */
-    }
-
     body {
         background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/Background.svg');
         background-repeat: no-repeat;
@@ -174,6 +159,12 @@ button.ofrendaButton {
         overflow-y: auto;
     }
 
+    .container {
+        top: 50%;
+        padding-bottom: 150px;
+        /* Ajusta el padding de la caja de ofrenda en dispositivos móviles */
+    }
+
     .box {
         margin-left: auto;
         /* Centra horizontalmente los elementos */
@@ -181,4 +172,11 @@ button.ofrendaButton {
         /* Centra horizontalmente los elementos */
     }
 
+    .logo {
+        top: 95vw;
+        max-height: 20vh;
+        /* Ajusta el tamaño del logo en dispositivos móviles */
+        padding: 10px;
+        /* Ajusta el espaciado del logo en dispositivos móviles */
+    }
 }
