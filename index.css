@@ -138,3 +138,14 @@ button.ofrendaButton {
     background-clip: padding-box;
     margin-bottom: 30px;
 }
+
+img.logo {
+    position: relative;
+    top: 400px;
+    left: -550px;
+    max-width: 150%;
+    max-height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
