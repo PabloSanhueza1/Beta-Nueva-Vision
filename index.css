@@ -152,9 +152,13 @@ button.ofrendaButton {
 
 @media (max-width: 768px) {
     .logo {
-        max-height: 60px;
+        max-height: 100%;
         /* Ajusta el tamaño del logo en dispositivos móviles */
-        padding: 5px;
+        padding: 10px;
         /* Ajusta el espaciado del logo en dispositivos móviles */
     }
+        .container {
+            padding-bottom: 150px;
+            /* Ajusta el padding de la caja de ofrenda en dispositivos móviles */
+        }
 }
