@@ -139,13 +139,13 @@ button.ofrendaButton {
     margin-bottom: 30px;
 }
 
-img.logo {
-    position: fixed;
+.logo {
+    position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 100%;
     max-height: 100px;
     padding: 10px;
     box-sizing: border-box;
-    
 }
