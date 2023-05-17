@@ -149,3 +149,12 @@ button.ofrendaButton {
     padding: 10px;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+    .logo {
+        max-height: 60px;
+        /* Ajusta el tamaño del logo en dispositivos móviles */
+        padding: 5px;
+        /* Ajusta el espaciado del logo en dispositivos móviles */
+    }
+}
