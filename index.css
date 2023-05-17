@@ -10,7 +10,7 @@ body {
     height: 300px;
     padding: 20px;
     text-align: center;
-    background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Beta-Nueva-Vision/main/Background.svg');
+    background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/Background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: auto;
@@ -150,7 +150,7 @@ button.ofrendaButton {
     box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .logo {
         top: 350px;
         max-height: 50%;
@@ -166,7 +166,7 @@ button.ofrendaButton {
     }
 
         body {
-            background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Beta-Nueva-Vision/main/Background.svg');
+            background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/Background.svg');
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-attachment: fixed;
