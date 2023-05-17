@@ -201,3 +201,11 @@ output {
         /* Ajusta el espaciado del logo en dispositivos móviles */
     }
 }
+
+/* Forzar modo claro */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
