@@ -62,7 +62,6 @@ output {
     font-size: 30px;
     position: absolute;
     top: -60px;
-    /* Ajusta el valor del margen superior según tu preferencia */
     left: 50%;
     transform: translateX(-50%);
 }
@@ -70,7 +69,6 @@ output {
 .slidecontainer {
     position: relative;
     margin-top: 70px;
-    /* Ajusta el valor del margen superior según tu preferencia */
 }
 
 /* estilos del boton OFRENDAR */
@@ -163,7 +161,7 @@ output {
 /* estilos del logo */
 .logo {
     position: absolute;
-    top: 95%;
+    top: 100%;
     left: 50%;
     transform: translateX(-50%);
     max-height: 150px;
@@ -196,7 +194,7 @@ output {
     }
 
     .logo {
-        top: 95vw;
+        top: 98vw;
         max-height: 20vh;
         /* Ajusta el tamaño del logo en dispositivos móviles */
         padding: 10px;
