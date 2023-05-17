@@ -2,6 +2,7 @@
 
 body {
     font-family: sans-serif;
+    color: #0d4e46;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -52,46 +53,46 @@ output {
     text-align: center;
     font-size: 24px;
     margin-top: 20px;
-    font-family: Arial, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: #000000;
 }
 
-/* Agrega el siguiente estilo para centrar el valor del slider */
+/* estilos del slider */
 #sliderValue {
-    font-size: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: -60px;
+    /* Ajusta el valor del margen superior según tu preferencia */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .slidecontainer {
     position: relative;
+    margin-top: 70px;
+    /* Ajusta el valor del margen superior según tu preferencia */
 }
 
-.slidecontainer #sliderValue {
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 20px;
-}
-
-.output-container {
-    background-color: #782929;
-    padding: 10px;
-    border-radius: 5px;
-}
-
+/* estilos del boton OFRENDAR */
 .ofrendaButton {
     backface-visibility: hidden;
     position: relative;
     cursor: pointer;
     background: #3fbaac;
     border-radius: 5px;
-    border: 0px solid #444444;
-    border-width: 0px 0px 0px 0px;
     padding: 10px 24px 10px 50px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 100;
     font-style: normal;
+    background-color: #3fbaac;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 16px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .ofrendaButton:hover {
@@ -103,10 +104,20 @@ output {
     top: 1px;
 }
 
-button.ofrendaButton {
+/* estilos del boton OTRA CANTIDAD */
+.otraCantidadButton {
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    background: #3fbaac;
+    border-radius: 5px;
+    padding: 10px 24px 10px 50px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
     background-color: #3fbaac;
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -115,6 +126,16 @@ button.ofrendaButton {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.otraCantidadButton:hover {
+    background-color: #408c99;
+}
+
+.otraCantidadButton:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Ajustes de las box */
 .container {
     font-family: sans-serif;
     position: fixed;
@@ -130,6 +151,7 @@ button.ofrendaButton {
     justify-content: center;
 }
 
+/* estilos de las box */
 .box {
     padding: 25px;
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 25%);
@@ -138,6 +160,7 @@ button.ofrendaButton {
     margin-bottom: 30px;
 }
 
+/* estilos del logo */
 .logo {
     position: absolute;
     top: 95%;
@@ -148,6 +171,7 @@ button.ofrendaButton {
     box-sizing: border-box;
 }
 
+/* estilos para móviles */
 @media (max-width: 800px) {
     body {
         background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/Background.svg');

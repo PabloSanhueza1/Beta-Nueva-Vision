@@ -35,7 +35,7 @@
                 </div>
 
                 <button class="ofrendaButton" id="ofrendar">OFRENDAR</button>
-
+                <button class="otraCantidadButton" id="otraCantidad">OTRA CANTIDAD</button>
                 <script>
                     var slider = document.getElementById("myRange");
                     var output = document.querySelector("output");
@@ -46,11 +46,15 @@
                         updateSliderValue();
                     });
 
-                    var OfrendarButton = document.getElementById("ofrendar");
-                    OfrendarButton.addEventListener("click", function () {
-                        updateButton();
+                    var ofrendaButton = document.getElementById("ofrendar");
+                    ofrendaButton.addEventListener("click", function () {
+                        ofrendar();
                     });
 
+                    var otraCantidadButton = document.getElementById("otraCantidad");
+                    otraCantidadButton.addEventListener("click", function () {
+                        ingresarMonto();
+                    });
                 </script>
             </div>
     </main>

@@ -8,7 +8,11 @@ function updateSliderValue() {
   output.innerHTML = formattedValue;  // actualizar valor del output
 }
 
-function updateButton() {
+function ingresarMonto() {
+  window.location.href = 'https://link.mercadopago.cl/nuevavisiontemplo';
+}
+
+function ofrendar() {
   var slider = document.getElementById('myRange');
   var value = parseInt(slider.value);
   console.log(value);
@@ -16,7 +20,7 @@ function updateButton() {
 
   switch (num) {
     case 1:
-      window.location.href = 'https://mpago.la/32UQht1';
+      window.location.href = 'https://mpago.la/2vJV4qj';
       break;
     case 2:
       window.location.href = 'https://mpago.la/2Aw6F7Y';
