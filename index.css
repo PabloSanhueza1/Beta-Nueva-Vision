@@ -173,4 +173,12 @@ button.ofrendaButton {
         background-position: center;
         overflow-y: auto;
     }
+
+    .box {
+        margin-left: auto;
+        /* Centra horizontalmente los elementos */
+        margin-right: auto;
+        /* Centra horizontalmente los elementos */
+    }
+
 }
