@@ -7,40 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon"
         href="https://raw.githubusercontent.com/PabloSanhueza1/Beta-Nueva-Vision/main/favicon.ico">
-    <title>BETA</title>
+    <title>Ofrenda Igl. Nueva Visión</title>
     <link href="index.css" rel="stylesheet" />
     <script src="index.js"></script>
 </head>
 
 <body>
     <main>
-        <h2>Seleccione una cantidad</h2>
+        <div class="container">
+            <div class="box">
+                <h2>¡Bienvenido!</h2>
+                <p>"Todos darán según sus posibilidades, de acuerdo con las bendiciones que hayan recibido del Señor tu
+                    Dios."</p>
+                <h3>Deuteronomio 16:17</h3>
 
-        <div class="slidecontainer">
-            <input type="range" min="1000" max="100000" value="50000" step="1000" class="slider" id="myRange">
-            <output id="sliderValue"></output>
-        </div>
+            </div>
 
-        <button class="myButton" id="ofrendar">OFRENDAR</button>
-        <script>
-            var slider = document.getElementById("myRange");
-            var output = document.querySelector("output");
-            output.innerHTML = slider.value;
+            <div class="box">
+                <h2>Seleccione una cantidad</h2>
 
-            slider.addEventListener("input", function () {
-                output.innerHTML = this.value;
-                updateSliderValue();
-            });
+                <div class="slidecontainer">
+                    <input type="range" min="1000" max="100000" value="50000" step="1000" class="slider" id="myRange">
+                    <output id="sliderValue"></output>
+                </div>
 
-            var button = document.getElementById("ofrendar");
-            button.addEventListener("click", function () {
-                updateButton();
-            });
-        </script>
+                <button class="ofrendaButton" id="ofrendar">OFRENDAR</button>
 
+                <script>
+                    var slider = document.getElementById("myRange");
+                    var output = document.querySelector("output");
+                    output.innerHTML = slider.value;
 
+                    slider.addEventListener("input", function () {
+                        output.innerHTML = this.value;
+                        updateSliderValue();
+                    });
+
+                    var OfrendarButton = document.getElementById("ofrendar");
+                    OfrendarButton.addEventListener("click", function () {
+                        updateButton();
+                    });
+
+                </script>
+            </div>
     </main>
-
 </body>
 
 </html>

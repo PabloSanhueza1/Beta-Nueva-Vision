@@ -16,16 +16,11 @@ body {
     overflow-y: auto;
 }
 
-h2 {
+h2,
+p {
     text-align: center;
 }
 
-main {
-    padding: 25px;
-    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 25%);
-    background-color: rgb(75, 222, 206);
-    background-clip: padding-box;
-}
 
 input[type=range] {
     -webkit-appearance: none;
@@ -85,8 +80,7 @@ output {
     border-radius: 5px;
 }
 
-.myButton {
-
+.ofrendaButton {
     backface-visibility: hidden;
     position: relative;
     cursor: pointer;
@@ -101,17 +95,16 @@ output {
     font-style: normal;
 }
 
-.myButton:hover {
+.ofrendaButton:hover {
     background-color: #408c99;
 }
 
-.myButton:active {
+.ofrendaButton:active {
     position: relative;
     top: 1px;
 }
 
-
-button.myButton {
+button.ofrendaButton {
     background-color: #3fbaac;
     border: none;
     color: white;
@@ -121,4 +114,27 @@ button.myButton {
     font-size: 25px;
     line-height: 16px;
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+    font-family: sans-serif;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 25%);
+    background-color: rgb(75, 222, 206);
+    background-clip: padding-box;
+    margin-bottom: 30px;
 }
