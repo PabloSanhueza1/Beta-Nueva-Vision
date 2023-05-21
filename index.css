@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
-@import url('https://fonts.googleapis.com/css?family=Asap Condensed');
+@import url('https://fonts.googleapis.com/css?family=EB Garamond');
 
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/Background.svg');
     background-size: cover;
@@ -13,7 +13,7 @@ body {
 p {
     font-size: 24px;
     text-align: center;
-    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
 }
 
 h3 {
@@ -133,7 +133,6 @@ output {
 /* estilos de las box */
 .box {
     width: 400px;
-    height: 250px;
     padding: 25px;
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 25%);
     background-color: rgb(75, 222, 206);
@@ -171,28 +170,39 @@ output {
         background-size: 100vw 100vh;
         background-attachment: fixed;
         background-position: center;
+        background-size: cover;
         overflow-y: auto;
     }
 
-    .bienvenida {
-        top: 50%;
-        padding-bottom: 150px;
-        /* Ajusta el padding de la caja de ofrenda en dispositivos móviles */
+    p {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', sans-serif;
     }
 
+    h3 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .ofrendaButton {
+        font-size: 21px;
+    }
+
+    .otraCantidadButton {
+        font-size: 21px;
+    }
+
+    /* estilos de las box */
     .box {
+        width: 300px;
+        padding: 25px;
+        box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 25%);
+        background-color: rgb(75, 222, 206);
+        background-clip: padding-box;
+        margin-bottom: 30px;
         margin-left: auto;
-        /* Centra horizontalmente los elementos */
         margin-right: auto;
-        /* Centra horizontalmente los elementos */
-    }
-
-    .logo {
-        top: 98vw;
-        max-height: 20vh;
-        /* Ajusta el tamaño del logo en dispositivos móviles */
-        padding: 10px;
-        /* Ajusta el espaciado del logo en dispositivos móviles */
     }
 }
 
