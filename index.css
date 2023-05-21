@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+@import url('https://fonts.googleapis.com/css?family=Asap Condensed');
 
 body {
     font-family: sans-serif;
-    color: #000000;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 300px;
+    margin: 0;
     padding: 20px;
     text-align: center;
     background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/Background.svg');
-    background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: auto;
 }
 
-h2,
 p {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
     text-align: center;
 }
 
@@ -59,11 +58,9 @@ output {
 
 /* estilos del slider */
 #sliderValue {
-    font-size: 30px;
-    position: absolute;
-    top: -60px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    font-size: 35px;
+    margin-bottom: 10px;
 }
 
 .slidecontainer {
@@ -133,37 +130,34 @@ output {
     top: 1px;
 }
 
-/* Ajustes de las box */
-.container {
-    font-family: sans-serif;
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 300px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 /* estilos de las box */
 .box {
+    width: 400px;
+    height: 250px;
     padding: 25px;
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 25%);
     background-color: rgb(75, 222, 206);
     background-clip: padding-box;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bienvenida {
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+}
+
+.cantidad {
+    position: relative;
+    top: 20px;
 }
 
 /* estilos del logo */
 .logo {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    top: 20px;
     max-height: 150px;
     padding: 10px;
     box-sizing: border-box;
@@ -180,7 +174,7 @@ output {
         overflow-y: auto;
     }
 
-    .container {
+    .bienvenida {
         top: 50%;
         padding-bottom: 150px;
         /* Ajusta el padding de la caja de ofrenda en dispositivos móviles */

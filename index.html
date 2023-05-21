@@ -7,56 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon"
         href="https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/favicon.ico">
-    <title>Ofrenda Igl. Nueva Visión</title>
+    <title>Ofrenda Nueva Visión</title>
     <link href="index.css" rel="stylesheet" />
     <script src="index.js"></script>
 </head>
 
 <body>
     <main>
-        <img class="logo"
-            src="https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/785bb8d59468bed3646f4d3ed1567c0c030571af/Logo%20habitando%20en%20Dios2.png"
-            alt="Logo nueva Vision">
         <div class="container">
-            <div class="box">
-                <h2>¡Bienvenido!</h2>
-                <p>"Todos darán según sus posibilidades, de acuerdo con las bendiciones que hayan recibido del Señor tu
-                    Dios."</p>
-                <h3>Deuteronomio 16:17</h3>
+            <div class="bienvenida">
+                <div class="box">
+                    <h2>¡Bienvenido!</h2>
 
-            </div>
+                    <p>"Todos darán según sus posibilidades, de acuerdo con las bendiciones que hayan recibido del
+                        Señor
+                        tu
+                        Dios."</p>
 
-            <div class="box">
-                <h2>Seleccione una cantidad</h2>
-
-                <div class="slidecontainer">
-                    <input type="range" min="1000" max="100000" value="50000" step="1000" class="slider" id="myRange">
-                    <output id="sliderValue"></output>
+                    <h3>Deuteronomio 16:17</h3>
                 </div>
-
-                <button class="ofrendaButton" id="ofrendar">OFRENDAR</button>
-                <button class="otraCantidadButton" id="otraCantidad">OTRA CANTIDAD</button>
-                <script>
-                    var slider = document.getElementById("myRange");
-                    var output = document.querySelector("output");
-                    output.innerHTML = slider.value;
-
-                    slider.addEventListener("input", function () {
-                        output.innerHTML = this.value;
-                        updateSliderValue();
-                    });
-
-                    var ofrendaButton = document.getElementById("ofrendar");
-                    ofrendaButton.addEventListener("click", function () {
-                        ofrendar();
-                    });
-
-                    var otraCantidadButton = document.getElementById("otraCantidad");
-                    otraCantidadButton.addEventListener("click", function () {
-                        ingresarMonto();
-                    });
-                </script>
             </div>
+
+            <div class="cantidad">
+
+                <div class="box">
+                    <h2>Seleccione una cantidad</h2>
+
+                    <div class="slide1">
+                        <output id="sliderValue"></output>
+                        <input type="range" min="1000" max="100000" value="50000" step="1000" class="slider"
+                            id="myRange">
+                    </div>
+
+                    <button class="ofrendaButton" id="ofrendar">OFRENDAR</button>
+                    <button class="otraCantidadButton" id="otraCantidad">OTRA CANTIDAD</button>
+                    <script>
+                        var slider = document.getElementById("myRange");
+                        var output = document.querySelector("output");
+                        output.innerHTML = slider.value;
+
+                        slider.addEventListener("input", function () {
+                            output.innerHTML = this.value;
+                            updateSliderValue();
+                        });
+
+                        var ofrendaButton = document.getElementById("ofrendar");
+                        ofrendaButton.addEventListener("click", function () {
+                            ofrendar();
+                        });
+
+                        var otraCantidadButton = document.getElementById("otraCantidad");
+                        otraCantidadButton.addEventListener("click", function () {
+                            ingresarMonto();
+                        });
+                    </script>
+
+                </div>
+            </div>
+            <img class="logo"
+                src="https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/785bb8d59468bed3646f4d3ed1567c0c030571af/Logo%20habitando%20en%20Dios2.png"
+                alt="Logo nueva Vision">
+            </img>
+        </div>
     </main>
 </body>
 
