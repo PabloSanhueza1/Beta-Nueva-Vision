@@ -4,7 +4,7 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 30px;
+    margin-top: 30px;
     text-align: center;
     background-image: url('https://raw.githubusercontent.com/PabloSanhueza1/Ofrenda-Templo-Nueva-Vision/main/Background.svg');
     background-size: cover;
@@ -142,6 +142,15 @@ output {
     margin-right: auto;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Asegura que el contenedor ocupe toda la altura de la ventana */
+}
+
 .bienvenida {
     position: relative;
     top: 0;
@@ -160,6 +169,7 @@ output {
     max-height: 150px;
     padding: 10px;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 /* estilos para móviles */
