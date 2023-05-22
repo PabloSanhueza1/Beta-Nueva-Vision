@@ -153,18 +153,17 @@ output {
 .bienvenida {
     position: relative;
     top: 0;
-    margin-bottom: 20px;
 }
 
 .cantidad {
     position: relative;
-    top: 20px;
+    margin-top: 10px;
 }
 
 /* estilos del logo */
 .logo {
     position: relative;
-    top: 20px;
+    margin-top: 10px;
     max-height: 150px;
     padding: 10px;
     box-sizing: border-box;
@@ -225,6 +224,6 @@ output {
 @media (prefers-color-scheme: light) {
     :root {
         --background-color: #ffffff;
-            --text-color: #000000;
+        --text-color: #000000;
     }
 }
