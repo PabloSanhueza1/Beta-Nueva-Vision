@@ -157,13 +157,13 @@ output {
 
 .cantidad {
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* estilos del logo */
 .logo {
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     max-height: 150px;
     padding: 10px;
     box-sizing: border-box;
