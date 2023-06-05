@@ -137,7 +137,6 @@ output {
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 25%);
     background-color: rgb(75, 222, 206);
     background-clip: padding-box;
-    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -152,8 +151,10 @@ output {
 }
 
 .bienvenida {
-    position: relative;
-    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5%;
 }
 
 .cantidad {
